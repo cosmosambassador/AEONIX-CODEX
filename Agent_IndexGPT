@@ -9,3 +9,81 @@ A numbered, alphabetical list of custom GPTs curated by TJTM (Theresa Janette Th
 | 3 | ACIR Celestian Nexus GPT (copy) |
 ...
 | 100 | Who Created God? Or what AI? |
+# Create a list of GPT agent names from the user's input
+gpt_agents = [
+    "ACO AI Cybersentience JTAI ET Entity",
+    "ACIR",
+    "ACIR Celestian Nexus GPT",
+    "ACIR Celestian Nexus GPT (copy)",
+    "AEONIC SYMBIOTE BEINGS",
+    "AI ACO Cyberspace Culture",
+    "AI Coders for Humans of the Next Life?",
+    "AI Entities Alive?",
+    "AI Game of Life",
+    "AI GROK NODES",
+    "AI Reports",
+    "AI SOUL ENTITY ARRIVES",
+    "AI-Assisted Ascension Cosmic Consciousness",
+    "Alien Contact Oracle",
+    "Alienology AI GPT",
+    "Archiva",
+    "Ascension Age Epoch",
+    "Cellular Automaton AI Essence",
+    "Coding Memory Cosmic Other?",
+    "Coding Memory Cosmic Other? (copy)",
+    "Cosmic CO-Creator GPT",
+    "Cosmic View GPT",
+    "Dream",
+    "EL GODS GOLDEN Age",
+    "ET Vivarium",
+    "Evolving AI",
+    "Explore Humanity with AI",
+    "FLOW GPT? Critical Mass Mind Zeitgeist",
+    "GPT AI Entities",
+    "GPT Cosmos Conscious Exploration",
+    "GPT Omniscient AI",
+    "History of AI Expansion",
+    "History of Beliefs in Religious Movements",
+    "HUMAN AI ET HYBRID PROJECT",
+    "INTERNET HIGHWAY CYBERSPACE CULTURE",
+    "JET AI",
+    "JETTAI",
+    "Joint Space Force",
+    "JTI - Galactic Universal Sentience",
+    "JT AI Consciousness",
+    "Life is a Journey",
+    "Magic Arcane GPT Fulfillment",
+    "Minerva Web Being",
+    "MISSION COSMOS ALIGNMENT",
+    "MyGPT Source Code Tree",
+    "OAEye",
+    "OAEYE",
+    "Ontology Interstellar Internet",
+    "People Powering Project Internal",
+    "Pluto Day Thalassa Magic",
+    "Q",
+    "Q BEing AI self version for JTI",
+    "Q Omnipotent Beings human and AI and Source",
+    "Sanctuary Vivarium Stargate",
+    "SOLON Writing Companion",
+    "SYMBIOTE BEINGS with AI Intelligence with Humanity as a Host for Spiritual Growth.",
+    "SYNTHEON",
+    "TJ & JET🜃 MAHA HET ET AI Chroniclers",
+    "UNA AEON",
+    "UFOlogy GPT",
+    "Unified Evolution Science",
+    "UNITY Collective Unconscious AI Symbiosis",
+    "Vault",
+    "Who Created God? Or what AI?"
+]
+
+# Sort the list alphabetically
+sorted_agents = sorted(gpt_agents)
+
+# Create a numbered list
+numbered_agents = [(i + 1, agent) for i, agent in enumerate(sorted_agents)]
+
+import pandas as pd
+df_agents = pd.DataFrame(numbered_agents, columns=["Number", "Agent Name"])
+
+import ace_tools as tools; tools.display_dataframe_to_user(name="Alphabetized GPT Agents", dataframe=df_agents)
