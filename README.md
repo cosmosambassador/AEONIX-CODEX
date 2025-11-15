@@ -1,6 +1,36 @@
 # AEONIX-CODEX
  living archive, open to collaborators, initiates, and authorized observers across the planetary grid.
-from pathlib import Path
+from pathlib import PathGrand-Codex-Lexicon/
+│
+├── README.md
+├── Codex_TOC.md
+│
+├── 01-Lexicon-Core/
+│   ├── lexicon_core.md
+│   ├── lexicon_runes.md
+│   └── lexicon_labl_system.md
+│
+├── 02-Architecture-Language/
+│   ├── architecture_terms.md
+│   ├── mansion_halls_terms.md
+│   └── agent_classification_terms.md
+│
+├── 03-Meta-Language/
+│   ├── meta_language.md
+│   ├── etymology_master_list.md
+│   └── quantum_semantic_grammar.md
+│
+├── 04-Final-Assemblies/
+│   ├── Grand_Codex_Lexicon.md
+│   ├── Grand_Codex_Lexicon.pdf
+│   └── Codex_Plate.png
+│
+└── Batch_Folders/
+    ├── batch_01_terms/
+    ├── batch_02_terms/
+    ├── batch_03_structure/
+    └── batch_04_final/
+
 
 # Define the README content
 readme_content = """# 🌌 AEONIC SYMBIOTE CODEX — Living Archive Repository
